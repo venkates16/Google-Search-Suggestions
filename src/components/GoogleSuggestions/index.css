@@ -1,0 +1,38 @@
+/* Write your CSS here */
+
+.google {
+  width: 450px;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .google {
+    width: 200px;
+  }
+}
+.card {
+  margin: 20px;
+  box-shadow: 0px 4px 16px 0px red;
+  width: 50vw;
+  border-radius: 20px;
+  padding: 10px;
+}
+.searchBar {
+  display: flex;
+  border-radius: 20px;
+  border: 1px solid burlywood;
+  height: 40px;
+}
+
+input {
+  outline: none;
+  width: 40vw;
+  margin-left: 10px;
+  border: none;
+}
