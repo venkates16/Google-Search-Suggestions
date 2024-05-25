@@ -1,1 +1,16 @@
 /* Write your CSS here */
+
+li {
+  list-style: none;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+img {
+  width: 28px;
+}
+
+.img {
+  cursor: pointer;
+}

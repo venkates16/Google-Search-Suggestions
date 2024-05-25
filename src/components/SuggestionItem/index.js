@@ -1,9 +1,24 @@
 // Write your code here
 import './index.css'
 
-let Listltem = props => {
-  return <h1>hii</h1>
+const Listltem = props => {
+  const {obj, searchWord} = props
+  const {suggestion, id} = obj
+
+  const click = () => {
+    searchWord(suggestion)
+  }
+  return (
+    <li>
+      <p>{suggestion}</p>
+      <img
+        onClick={click}
+        src="https://assets.ccbp.in/frontend/react-js/diagonal-arrow-left-up.png"
+        className="img"
+        alt="arrow"
+      />
+    </li>
+  )
 }
 
 export default Listltem
-

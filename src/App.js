@@ -14,4 +14,3 @@ const suggestionsList = [
 const App = () => <GoogleSuggestions suggestionsList={suggestionsList} />
 
 export default App
-
